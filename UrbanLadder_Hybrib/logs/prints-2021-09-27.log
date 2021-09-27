@@ -1,0 +1,6 @@
+02:20:32.133 [main] INFO  pageObjects.BaseFile - Switching to Instagram Tab
+02:20:34.305 [main] INFO  pageObjects.BaseFile - The Title of current tab is -> Login • Instagram
+02:20:35.182 [main] INFO  pageObjects.BaseFile - End of Instagram Test Case
+02:20:51.321 [main] INFO  pageObjects.BaseFile - Clicking on Application store to download Urban Ladder Application
+02:20:54.623 [main] INFO  pageObjects.BaseFile - Switched to Store Download Page
+02:20:56.943 [main] INFO  pageObjects.BaseFile - The title for the Store Page is -> ?Urban Ladder on the App Store

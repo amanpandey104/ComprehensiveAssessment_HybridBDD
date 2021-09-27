@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+	<listener class-name="testCases.Listners"/>
+	<listener class-name="testCases.ExtentReporterNG"/>
+</listeners>
+<test thread-count = "5" name="UserLogin">
+	<classes>
+		<class name="testCases.Login"/>
+	</classes>
+</test>
+<test thread-count = "1" name="UserSignInUsingFacebook">
+	<classes>
+		<class name="testCases.SignInFacebook"/>
+	</classes>
+</test>
+<test thread-count = "1" name="UserSignInUsingGoogle">
+	<classes>
+		<class name="testCases.SignInGoogle"/>
+	</classes>
+</test>
+<test thread-count = "1" name="AddProductToCart">
+	<classes>
+		<class name="testCases.StudyToCart"/>
+	</classes>
+</test>
+<test thread-count = "1" name="CheckSaleForAllProducts">
+	<classes>
+		<class name="testCases.SelectAllSale"/>
+	</classes>
+</test>
+<test thread-count = "1" name="TrackingOrder">
+	<classes>
+		<class name="testCases.TrackOrder"/>
+	</classes>
+</test>
+<test thread-count = "1" name="SendingGiftCard">
+	<classes>
+		<class name="testCases.GiftCard"/>
+	</classes>
+</test>
+<test thread-count = "1" name="EnquireAboutStores">
+	<classes>
+		<class name="testCases.ViewStores"/>
+	</classes>
+</test>
+<test thread-count = "1" name="ViewInstagramPage">
+	<classes>
+		<class name="testCases.Instagram"/>
+	</classes>
+</test>
+<test thread-count="1" name="SelectApplicationToDownloadFrom">
+    <classes>
+    	<class name="testCases.SelectApplicationStore"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
