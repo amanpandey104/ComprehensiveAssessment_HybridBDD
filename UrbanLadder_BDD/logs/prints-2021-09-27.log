@@ -1,6 +1,0 @@
-02:56:11.000 [main] INFO  pageObjects.BaseFile - Clicking on Track Order on Header Bar
-02:56:13.296 [main] INFO  pageObjects.BaseFile - Entering Order Number and Phone Number from Excel Sheet
-02:56:15.275 [main] INFO  pageObjects.BaseFile - End of Track Order Test Case
-02:56:36.896 [main] INFO  pageObjects.BaseFile - Clicking on Track Order on Header Bar
-02:56:39.061 [main] INFO  pageObjects.BaseFile - Entering Order Number and Phone Number from Excel Sheet
-02:56:40.603 [main] INFO  pageObjects.BaseFile - End of Track Order Test Case
