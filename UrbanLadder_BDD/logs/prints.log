@@ -1,0 +1,3 @@
+02:56:50.300 [main] INFO  pageObjects.BaseFile - Clicking on Store Option in Header Bar
+02:56:50.304 [main] INFO  pageObjects.BaseFile - Entering City to get the Store Location
+02:56:54.395 [main] INFO  pageObjects.BaseFile - End of View Details for Store Test Case
