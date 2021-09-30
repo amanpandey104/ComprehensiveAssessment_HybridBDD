@@ -37,6 +37,7 @@ public class StudyToCart extends BaseFile {
 		log.info("Hovering over Study option in Navigation Bar");
 		Thread.sleep(2000);
 		stco.getBookshelf().click();
+		Thread.sleep(2000);
 		stco.getProduct().click();
 		log.info("Selecting Product");
 		stco.getCart().click();
