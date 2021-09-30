@@ -13,7 +13,7 @@ public class StudyToCartObject {
 	By close = By.xpath("//a[@class='close-reveal-modal hide-mobile']");
 	By study = By.xpath("//li[@class='topnav_item studyunit']"); 
 	By bookshelf = By.xpath("//a[@href='/bookshelf?src=g_topnav_study_storage_bookshelves']");
-	By product = By.xpath("//a[@href='/products/alberto-bookshelf?sku=FNSGBR11TK30086&src=room']");
+	By product = By.xpath("//a[@href='/products/alberto-bookshelf?sku=FNSGBR11TK30086&src=subcat']");
 	By cart = By.id("add-to-cart-button");
 	public StudyToCartObject(WebDriver driver) {
 		this.driver = driver;
