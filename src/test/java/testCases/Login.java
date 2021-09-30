@@ -33,8 +33,13 @@ public class Login extends BaseFile {
 	@Test(dataProvider = "testData")
 	public void userLogin(String email, String password) throws InterruptedException {
 		LoginObject lo = new LoginObject(driver);
-		Thread.sleep(5000);
-		//lo.getLoginButton().click();
+		lo.getClose();
+		Thread.sleep(2000);
+		Actions hover = new Actions(driver);
+		hover.moveToElement(lo.getIcon()).build().perform();
+		Thread.sleep(2000);
+		lo.getLoginButton().click();
+		Thread.sleep(8000);
 		lo.getEmail().sendKeys(email);
 		log.info("Entering Email and Password");
 		lo.getPassword().sendKeys(password);

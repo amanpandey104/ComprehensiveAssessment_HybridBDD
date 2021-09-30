@@ -12,12 +12,20 @@ import org.openqa.selenium.WebElement;
 
 public class LoginObject {
 	public WebDriver driver = null;
-	By login = By.xpath("//a[@class='login-link link-color']");
-	By email = By.id("spree_user_email");
-	By password = By.id("spree_user_password");
-	By submit = By.id("ul_site_login");
+	By login = By.xpath("//*[@id=\'header\']/div[1]/div/section[3]/ul/li[2]/span/ul/li[1]/a");
+	By email = By.xpath("/html/body/div[6]/div/div[1]/div/div[2]/div[3]/form/div/input");
+	By password = By.xpath("/html/body/div[6]/div/div[1]/div/div[2]/div[3]/form/div/div/div/input");
+	By submit = By.xpath("//*[@id=\"ul_site_login\"]");
+	By close = By.xpath("//a[@class='close-reveal-modal hide-mobile']");
+	By icon = By.cssSelector("#header > div.header__topBar > div > section.header__topBar_sectionRight > ul > li.header__topBarIconList_profile-icon > span > svg > path");
 	public LoginObject(WebDriver driver) {
 		this.driver = driver;
+	}
+	public WebElement getClose() {
+		return driver.findElement(close);
+	}
+	public WebElement getIcon() {
+		return driver.findElement(icon);
 	}
 	public WebElement getLoginButton() {
 		return driver.findElement(login);
